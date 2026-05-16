@@ -43,6 +43,12 @@ Task tool（general-purpose）:
     - DRY 但没有过早抽象？
     - 边界情况处理了吗？
 
+    **注释质量（见 `superpowers:code-comment-guidelines`）：**
+    - 公共 API 有 JSDoc 吗？
+    - 注释解释的是"为什么"而非"是什么"吗？
+    - 改过的代码附近，注释是否仍然为真？
+    - 临时注释有删除条件吗？
+
     **架构：**
     - 设计决策合理吗？
     - 可扩展性和性能合理吗？

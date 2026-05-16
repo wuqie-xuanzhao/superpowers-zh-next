@@ -118,6 +118,7 @@ git commit -m "feat: add specific feature"
 - 每个步骤都包含完整代码——如果步骤涉及代码变更，就展示代码
 - 精确的命令和预期输出
 - DRY、YAGNI、TDD、频繁 commit
+- 标注需要写注释的场景（业务约束、兼容性分支、unsafe 等），见 `superpowers:code-comment-guidelines`
 
 ## 自检
 
