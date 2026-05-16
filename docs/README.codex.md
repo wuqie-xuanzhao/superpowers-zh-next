@@ -7,7 +7,7 @@
 告诉 Codex：
 
 ```
-Fetch and follow instructions from https://raw.githubusercontent.com/jnMetaCode/superpowers-zh/refs/heads/main/.codex/INSTALL.md
+Fetch and follow instructions from https://raw.githubusercontent.com/wuqie-xuanzhao/superpowers-zh-next/refs/heads/main/.codex/INSTALL.md
 ```
 
 ## 手动安装
@@ -21,7 +21,7 @@ Fetch and follow instructions from https://raw.githubusercontent.com/jnMetaCode/
 
 1. 克隆仓库：
    ```bash
-   git clone https://github.com/jnMetaCode/superpowers-zh.git ~/.codex/superpowers-zh
+   git clone https://github.com/wuqie-xuanzhao/superpowers-zh-next.git ~/.codex/superpowers-zh
    ```
 
 2. 创建 skills 符号链接：
@@ -87,5 +87,5 @@ Remove-Item "$env:USERPROFILE\.agents\skills\superpowers"
 
 ## 获取帮助
 
-- 提交 Issue：https://github.com/jnMetaCode/superpowers-zh/issues
-- 项目主页：https://github.com/jnMetaCode/superpowers-zh
+- 提交 Issue：https://github.com/wuqie-xuanzhao/superpowers-zh-next/issues
+- 项目主页：https://github.com/wuqie-xuanzhao/superpowers-zh-next

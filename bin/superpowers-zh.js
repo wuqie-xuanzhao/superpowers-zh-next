@@ -412,7 +412,7 @@ function showHelp() {
     误装到主目录可以这样清理：
       cd ~ && npx superpowers-zh --uninstall
 
-  项目：https://github.com/jnMetaCode/superpowers-zh
+  项目：https://github.com/wuqie-xuanzhao/superpowers-zh-next
 `);
 }
 
@@ -428,7 +428,7 @@ function installForTarget(target) {
       `\n  这通常是 npx 缓存目录权限或路径问题。请尝试：\n` +
       `    1. 清理缓存后重试: npm cache clean --force && npx superpowers-zh\n` +
       `    2. 或全局安装: npm i -g superpowers-zh && superpowers-zh\n` +
-      `    3. 或手动克隆复制: 见 https://github.com/jnMetaCode/superpowers-zh#方式二手动安装`
+      `    3. 或手动克隆复制: 见 https://github.com/wuqie-xuanzhao/superpowers-zh-next#方式二手动安装`
     );
   }
   console.log(`  ✅ ${target.name}: ${srcCount} 个 skills -> ${dest}`);

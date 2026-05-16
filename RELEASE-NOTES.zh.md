@@ -1,6 +1,6 @@
 # Superpowers-ZH 中文版 Release Notes
 
-> 本文档记录 `jnMetaCode/superpowers-zh` 中文 fork 自身的 release 历史。
+> 本文档记录 `wuqie-xuanzhao/superpowers-zh-next` 中文 fork 自身的 release 历史。
 >
 > 上游 `obra/superpowers` 的英文 release notes 见 [`RELEASE-NOTES.md`](./RELEASE-NOTES.md)（原样保留，未翻译）。
 
@@ -99,7 +99,7 @@ WARN（不阻塞）vs FAIL（阻塞）分级：本次"4 个 P0 漂"事件如果�
   - **Known limitation**：`npm pack` 默认不跟随 symlink，因此 npm publish 出来的 tarball 不包含 AGENTS.md。这不影响实际使用：AGENTS.md 是 Codex CLI 在用户自己项目目录读的文件，不是从 `superpowers-zh` 安装包读的；通过 `git clone` 拿到仓库的贡献者会正确解析 symlink。
 - **`RELEASE-NOTES.md`** —— 上游 release notes 原样保留（英文版，1180 行）。
 - **`RELEASE-NOTES.zh.md`** —— 本文件，中文 fork 自身 release 记录。
-- **`.codex-plugin/plugin.json`** —— Codex CLI plugin manifest（中文版本地化：name/description/displayName 改为中文版，URL 指向 `jnMetaCode/superpowers-zh`）。
+- **`.codex-plugin/plugin.json`** —— Codex CLI plugin manifest（中文版本地化：name/description/displayName 改为中文版，URL 指向 `wuqie-xuanzhao/superpowers-zh-next`）。
 - **`.version-bump.json`** —— 上游版本管理配置文件。
 - **`scripts/bump-version.sh`** —— 上游版本同步脚本（含 `--check` 漂移检测、`--audit` 仓库审计）。中文版 npm version 钩子继续用 `scripts/sync-plugin-version.js`，bump-version.sh 作为补充工具引入。
 - **`assets/app-icon.png`** + **`assets/superpowers-small.svg`** —— Codex marketplace 需要的图标资产。

@@ -19,7 +19,7 @@ npx superpowers-zh
 ## 手动安装
 
 ```bash
-git clone https://github.com/jnMetaCode/superpowers-zh.git
+git clone https://github.com/wuqie-xuanzhao/superpowers-zh-next.git
 mkdir -p /your/project/.github/superpowers
 cp -r superpowers-zh/skills/* /your/project/.github/superpowers/
 ```
@@ -94,5 +94,5 @@ npx superpowers-zh
 
 ## 获取帮助
 
-- 提交 Issue：https://github.com/jnMetaCode/superpowers-zh/issues
+- 提交 Issue：https://github.com/wuqie-xuanzhao/superpowers-zh-next/issues
 - VS Code Copilot 文档：https://code.visualstudio.com/docs/copilot/customization/custom-instructions

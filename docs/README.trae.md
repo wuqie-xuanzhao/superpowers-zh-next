@@ -14,7 +14,7 @@ npx superpowers-zh
 ## 手动安装
 
 ```bash
-git clone https://github.com/jnMetaCode/superpowers-zh.git
+git clone https://github.com/wuqie-xuanzhao/superpowers-zh-next.git
 mkdir -p /your/project/.trae/rules
 cp -r superpowers-zh/skills/* /your/project/.trae/rules/
 ```
@@ -69,5 +69,5 @@ npx superpowers-zh@latest --uninstall
 
 ## 获取帮助
 
-- 提交 Issue：https://github.com/jnMetaCode/superpowers-zh/issues
+- 提交 Issue：https://github.com/wuqie-xuanzhao/superpowers-zh-next/issues
 - Trae 文档：https://docs.trae.ai/ide/rules

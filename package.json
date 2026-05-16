@@ -63,9 +63,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jnMetaCode/superpowers-zh.git"
+    "url": "https://github.com/wuqie-xuanzhao/superpowers-zh-next.git"
   },
-  "homepage": "https://github.com/jnMetaCode/superpowers-zh",
-  "author": "jnMetaCode",
+  "homepage": "https://github.com/wuqie-xuanzhao/superpowers-zh-next",
+  "author": "wuqie-xuanzhao",
   "license": "MIT"
 }

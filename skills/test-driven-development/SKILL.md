@@ -354,6 +354,14 @@ PASS
 
 绝不在没有测试的情况下修复 bug。
 
+## 与 BDD 协同
+
+TDD 验证**内部实现**（函数/方法级别），BDD 验证**外部行为**（用户场景级别）。两者配合使用：
+
+- 先用 `superpowers:behavior-driven-development` 写 Gherkin 场景定义"用户期望什么"
+- 再用 TDD 红-绿-重构循环实现每个场景背后的代码
+- BDD 场景作为验收标准，TDD 单元测试作为实现保障
+
 ## 测试反模式
 
 添加 mock 或测试工具时，阅读 @testing-anti-patterns.md 以避免常见陷阱：

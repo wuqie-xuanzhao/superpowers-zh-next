@@ -109,11 +109,11 @@ Skill 不是普通文档 —— 它是塑造 agent 行为的代码。如果你�
 
 ## 关于本中文 fork（superpowers-zh）
 
-本仓库 `jnMetaCode/superpowers-zh` 是上游 `obra/superpowers` 的**中文增强 fork**，定位为：完整翻译上游 skill + 叠加 4 个中国原创 skill（chinese-code-review / chinese-commit-conventions / chinese-documentation / chinese-git-workflow）+ 多工具适配（npx 一条命令支持 17 款 IDE/CLI）。
+本仓库 `wuqie-xuanzhao/superpowers-zh-next` 是上游 `obra/superpowers` 的**中文增强 fork**，定位为：完整翻译上游 skill + 叠加 4 个中国原创 skill（chinese-code-review / chinese-commit-conventions / chinese-documentation / chinese-git-workflow）+ 多工具适配（npx 一条命令支持 17 款 IDE/CLI）。
 
 **上述规则适用于向 `obra/superpowers` 上游提 PR 时的行为约束。** 向中文 fork 提 PR 时按本仓库自己的 PR 模板与流程执行，但其中的核心原则**同样适用**：
 
-- 提交前先在 `jnMetaCode/superpowers-zh` 搜已有 PR / issue 查重
+- 提交前先在 `wuqie-xuanzhao/superpowers-zh-next` 搜已有 PR / issue 查重
 - 不交付 AI slop（编造、批量、推测性修复均会被关闭）
 - 真人必须 review 完整 diff 后再提交
 

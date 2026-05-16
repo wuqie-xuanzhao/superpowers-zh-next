@@ -177,6 +177,7 @@ description: 遇到任何 bug、测试失败或异常行为时使用，在提出
    - 没有测试框架就写一次性测试脚本
    - 修复前必须先有测试
    - 使用 `superpowers:test-driven-development` 技能来编写规范的失败测试
+   - 如果 bug 涉及用户可见行为，用 `superpowers:behavior-driven-development` 写 Gherkin 场景复现
 
 2. **实施单一修复**
    - 修复已定位的根本原因

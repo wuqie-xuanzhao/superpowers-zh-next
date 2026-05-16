@@ -20,7 +20,7 @@ npx superpowers-zh   # 自动检测
 ## 手动安装
 
 ```bash
-git clone https://github.com/jnMetaCode/superpowers-zh.git
+git clone https://github.com/wuqie-xuanzhao/superpowers-zh-next.git
 cp -r superpowers-zh/skills /your/project/.hermes/skills
 ```
 
@@ -91,6 +91,6 @@ skill_view("using-superpowers", "references/hermes-tools.md")
 
 ## 获取帮助
 
-- 提交 Issue：https://github.com/jnMetaCode/superpowers-zh/issues
-- 项目主页：https://github.com/jnMetaCode/superpowers-zh
+- 提交 Issue：https://github.com/wuqie-xuanzhao/superpowers-zh-next/issues
+- 项目主页：https://github.com/wuqie-xuanzhao/superpowers-zh-next
 - Hermes Agent 文档：https://hermes-agent.nousresearch.com/docs/

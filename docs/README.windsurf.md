@@ -14,7 +14,7 @@ npx superpowers-zh
 ## 手动安装
 
 ```bash
-git clone https://github.com/jnMetaCode/superpowers-zh.git
+git clone https://github.com/wuqie-xuanzhao/superpowers-zh-next.git
 cp -r superpowers-zh/skills /your/project/.windsurf/skills
 ```
 
@@ -51,6 +51,6 @@ cp -r superpowers-zh/skills ~/.windsurf/skills
 
 ## 获取帮助
 
-- 提交 Issue：https://github.com/jnMetaCode/superpowers-zh/issues
-- 项目主页：https://github.com/jnMetaCode/superpowers-zh
+- 提交 Issue：https://github.com/wuqie-xuanzhao/superpowers-zh-next/issues
+- 项目主页：https://github.com/wuqie-xuanzhao/superpowers-zh-next
 - Windsurf 文档：https://docs.codeium.com/windsurf

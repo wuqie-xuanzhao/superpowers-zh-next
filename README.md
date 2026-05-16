@@ -2,9 +2,9 @@
 
 🌐 **简体中文** | [English (upstream)](https://github.com/obra/superpowers)
 
-> 🦸 **superpowers（159k+ ⭐）完整汉化 + 4 个中国原创 skills** — 让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 **17 款 AI 编程工具**真正会干活。从头脑风暴到代码审查，从 TDD 到调试，每个 skill 都是经过实战验证的工作方法论。
+> 🦸 **superpowers（159k+ ⭐）完整汉化 + 4 个中国原创 skills** — 让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 **17 款 AI 编程工具**真正会干活。从头脑风暴到代码审查，从 TDD 到 BDD，每个 skill 都是经过实战验证的工作方法论。
 
-Chinese community edition of [superpowers](https://github.com/obra/superpowers) — 20 skills across 16 AI coding tools, including full translations and China-specific development skills.
+Chinese community edition of [superpowers](https://github.com/obra/superpowers) — 23 skills across 16 AI coding tools, including full translations and China-specific development skills.
 
 <!-- 效果对比 -->
 <table>
@@ -33,7 +33,7 @@ AI：在开始实现之前，我需要了解几个关键问题：
 </td></tr>
 </table>
 
-[![GitHub stars](https://img.shields.io/github/stars/jnMetaCode/superpowers-zh?style=social)](https://github.com/jnMetaCode/superpowers-zh)
+[![GitHub stars](https://img.shields.io/github/stars/wuqie-xuanzhao/superpowers-zh-next?style=social)](https://github.com/wuqie-xuanzhao/superpowers-zh-next)
 [![npm version](https://img.shields.io/npm/v/superpowers-zh)](https://www.npmjs.com/package/superpowers-zh)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
@@ -59,7 +59,7 @@ AI：在开始实现之前，我需要了解几个关键问题：
 | 维度 | superpowers（英文上游） | superpowers-zh（中文增强版） |
 |------|----------------------|---------------------------|
 | ⭐ Star 数 | 159k+ | — |
-| 📦 Skills 总数 | 14 | **20**（14 翻译 + 4 国产原创 + 2 上游历史保留） |
+| 📦 Skills 总数 | 14 | **23**（14 翻译 + 4 国产原创 + 2 上游历史保留 + 3 新增通用） |
 | 🌐 语言 | 英文 | 中文（技术术语保留英文） |
 | 🤖 **支持工具** | **6 款**：Claude Code / Cursor / Codex / OpenCode / Copilot CLI / Gemini CLI | **17 款**：上述 6 款 + Hermes Agent / Trae / Kiro / Qwen Code（通义灵码）/ OpenClaw / Claw Code / Antigravity / DeerFlow / VS Code / Windsurf / Aider |
 | ⚡ **安装方式** | 按工具分别装（每款一条不同的 plugin marketplace 命令） | **`npx superpowers-zh` 一条命令自动识别项目里的工具并安装**；识别不出可 `--tool <name>` 显式指定 |
@@ -99,7 +99,7 @@ AI：在开始实现之前，我需要了解几个关键问题：
 | [Antigravity](https://github.com/anthropics/antigravity) | CLI | `npx superpowers-zh` | `.antigravity/skills/` |
 | [Claw Code](https://github.com/ultraworkers/claw-code) | CLI (Rust) | `npx superpowers-zh` | `.claw/skills/` |
 
-> 运行 `npx superpowers-zh` 会自动检测你项目中使用的工具，将 20 个 skills 安装到正确位置。
+> 运行 `npx superpowers-zh` 会自动检测你项目中使用的工具，将 23 个 skills 安装到正确位置。
 
 ### 翻译的 Skills（14 个）
 
@@ -119,6 +119,14 @@ AI：在开始实现之前，我需要了解几个关键问题：
 | **完成开发分支** (finishing-a-development-branch) | 合并/PR/保留/丢弃四选一 |
 | **编写 Skills** (writing-skills) | 创建新 skill 的方法论 |
 | **使用 Superpowers** (using-superpowers) | 元技能：如何调用和优先使用 skills |
+
+### ➕ 新增通用 Skills（3 个）
+
+| Skill | 用途 |
+|-------|------|
+| **代码探索** (code-explore) | 定向探索仓库代码，产出证据化的探索报告 |
+| **代码注释指南** (code-comment-guidelines) | 代码注释最佳实践——公共 API 写 JSDoc，其余不写冗余注释 |
+| **行为驱动开发** (behavior-driven-development) | 先写 Gherkin 场景描述行为，再驱动实现 |
 
 ### 🇨🇳 中国特色 Skills（6 个）
 
@@ -159,7 +167,7 @@ npx superpowers-zh
 
 ```bash
 # 克隆仓库
-git clone https://github.com/jnMetaCode/superpowers-zh.git
+git clone https://github.com/wuqie-xuanzhao/superpowers-zh-next.git
 
 # 复制 skills 到你的项目（选择你使用的工具）
 cp -r superpowers-zh/skills /your/project/.claude/skills      # Claude Code / Copilot CLI
@@ -265,7 +273,7 @@ npx superpowers-zh@latest --uninstall
 
 | 项目 | 定位 | 一句话 |
 |------|------|-------|
-| **[superpowers-zh](https://github.com/jnMetaCode/superpowers-zh)**（本项目） ![](https://img.shields.io/github/stars/jnMetaCode/superpowers-zh?style=flat&label=⭐) | 🧠 工作方法论 | 20 个 skills 教 AI 怎么干活（TDD / 调试 / 代码审查等） |
+| **[superpowers-zh](https://github.com/wuqie-xuanzhao/superpowers-zh-next)**（本项目） ![](https://img.shields.io/github/stars/wuqie-xuanzhao/superpowers-zh-next?style=flat&label=⭐) | 🧠 工作方法论 | 20 个 skills 教 AI 怎么干活（TDD / 调试 / 代码审查等） |
 | **[agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh)** ![](https://img.shields.io/github/stars/jnMetaCode/agency-agents-zh?style=flat&label=⭐) | 🎭 专家角色库 | 211 个**即插即用** AI 专家，含 46 中国原创（小红书 / 抖音 / 飞书 / 钉钉） |
 | **[agency-orchestrator](https://github.com/jnMetaCode/agency-orchestrator)** | 🚀 编排引擎 | 一句话 → 211 专家协作，**几分钟出方案**（9 家 LLM / 6 免费） |
 | **[ai-coding-guide](https://github.com/jnMetaCode/ai-coding-guide)** | 📖 实战教程 | 66 个 Claude Code 技巧 + 9 款工具最佳实践 + 配置模板 |
@@ -305,6 +313,6 @@ MIT License — 自由使用，商业或个人均可。
 
 **🦸 AI 编程超能力：让 Claude Code / Hermes Agent / Cursor / Claw Code 等 17 款工具真正会干活**
 
-[Star 本项目](https://github.com/jnMetaCode/superpowers-zh) · [提交 Issue](https://github.com/jnMetaCode/superpowers-zh/issues) · [贡献代码](https://github.com/jnMetaCode/superpowers-zh/pulls)
+[Star 本项目](https://github.com/wuqie-xuanzhao/superpowers-zh-next) · [提交 Issue](https://github.com/wuqie-xuanzhao/superpowers-zh-next/issues) · [贡献代码](https://github.com/wuqie-xuanzhao/superpowers-zh-next/pulls)
 
 </div>

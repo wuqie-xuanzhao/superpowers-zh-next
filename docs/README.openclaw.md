@@ -14,7 +14,7 @@ npx superpowers-zh
 ## 手动安装
 
 ```bash
-git clone https://github.com/jnMetaCode/superpowers-zh.git
+git clone https://github.com/wuqie-xuanzhao/superpowers-zh-next.git
 cp -r superpowers-zh/skills/* /your/project/skills/
 ```
 
@@ -101,5 +101,5 @@ npx superpowers-zh
 
 ## 获取帮助
 
-- 提交 Issue：https://github.com/jnMetaCode/superpowers-zh/issues
+- 提交 Issue：https://github.com/wuqie-xuanzhao/superpowers-zh-next/issues
 - QQ 群：833585047
